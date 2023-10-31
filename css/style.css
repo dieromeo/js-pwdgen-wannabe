@@ -1,0 +1,59 @@
+/*
+--------
+IMPORT
+--------
+*/
+
+@import url('_partials/var.css');
+
+/*
+--------
+RESET
+--------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--main-color);
+}
+
+/*
+---------------------
+PASSWORD CONTAINER
+---------------------
+*/
+
+h1 {
+    text-align: center;
+    margin-top: 6.25rem;
+    color: var(--text-main);
+    margin-bottom: 3.125rem;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+}
+
+div.pw-container {
+    padding: .625rem 1.25rem;
+    margin: 0 1.25rem;
+    font-size: 1.25rem;
+    background-color: var(--div-bg);
+    border-radius: 1.25rem;
+    align-self: center;
+}
+
+div.container img {
+    height: 50px;
+}
+
+div.container img.reverse-img {
+    rotate: 270deg;
+}

@@ -8,7 +8,7 @@ const elementPassword = document.getElementById('your-password');
 
 //console.log(elementNumber)
 
-elementName = prompt('Inserisci il tuo nome: ');
+elementName = prompt('Type your name ');
 elementLastName = prompt('Type your lastname');
 elementFavouriteColor = prompt('Type your favourite color');
 
